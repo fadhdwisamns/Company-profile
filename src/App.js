@@ -8,6 +8,7 @@ import Team from './components/Team';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact'
+import Footer from './components/Footer';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 import $ from 'jquery';
@@ -47,6 +48,7 @@ class App extends Component {
         <Portfolio/>
         <Services />
         <Contact />
+        <Footer/>
       </Router>
     )
   }
